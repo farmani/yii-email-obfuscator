@@ -1,0 +1,24 @@
+{
+    "name": "farmani/yii-email-obfuscator",
+    "description": "Yii extension to obfuscate eMail addresses.",
+    "keywords": ["yii", "extension", "email", "obfuscation", "obfuscator"],
+    "homepage": "https://github.com/farmani/yii-email-obfuscator",
+    "type": "yii-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ramin Farmani",
+            "email": "ramin.farmani@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "farmani\\yii\\email\\": ""
+        }
+    }
+}
